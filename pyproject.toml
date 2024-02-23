@@ -37,5 +37,5 @@ dev = [
 
 [project.urls]
 homepage = "https://github.com/sdypy/sdypy-excitation"
-documentation = "https://sdypy-excitation.readthedocs.io/en/latest/index.html"
+documentation = "https://pyexsi.readthedocs.io/en/latest/index.html"
 source = "https://github.com/sdypy/sdypy-excitation"
