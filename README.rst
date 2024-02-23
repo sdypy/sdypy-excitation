@@ -1,5 +1,5 @@
 sdypy-excitation
-=========
+================
 
 Frequency response function as used in structural dynamics.
 -----------------------------------------------------------
@@ -20,10 +20,10 @@ Other functionalities of the ``sdypy`` framework include:
 For more information check out the showcase examples and see documentation_.
 
 Basic ``sdypy-excitation`` usage:
---------------------------
+---------------------------------
 
 Import the module:
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. code:: python
 
