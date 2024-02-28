@@ -5,10 +5,10 @@ Frequency response function as used in structural dynamics.
 -----------------------------------------------------------
 
 The ``sdypy-excitation`` is a namespace project of the ``sdypy`` framework and is a direct link
-to the ``pyExSi`` package (developed at `pyFRF <https://github.com/ladisk/pyExSi>`_).
+to the ``pyExSi`` package (developed at `pyExSi <https://github.com/ladisk/pyExSi>`_).
 
 Use the ``sdypy`` package to conveniently access the functionality of the
-`pyFRF <https://github.com/ladisk/pyExSi>`_ package through its namespace (see example below). 
+`pyExSi <https://github.com/ladisk/pyExSi>`_ package through its namespace (see example below). 
 
 Other functionalities of the ``sdypy`` framework include:
 
