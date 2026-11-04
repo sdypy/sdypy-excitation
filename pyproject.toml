@@ -11,13 +11,15 @@ license = "MIT"
 description = "Excitation signals as used in structural dynamics and vibration fatigue."
 readme = "README.rst"
 keywords = ["excitation signals", "vibration fatigue", "structural dynamics"]
-requires-python = ">=3.10"
+requires-python = ">=3.13"
 dependencies = ["pyExSi"]
 classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
     'Topic :: Scientific/Engineering',
-    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3.14',
+    'Programming Language :: Python :: 3.15',
     "License :: OSI Approved :: MIT License",
 ]
 
