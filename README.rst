@@ -1,8 +1,8 @@
 sdypy-excitation
 ================
 
-Frequency response function as used in structural dynamics.
------------------------------------------------------------
+Excitation signal generation for structural dynamics and vibration fatigue.
+---------------------------------------------------------------------------
 
 The ``sdypy-excitation`` is a namespace project of the ``sdypy`` framework and is a direct link
 to the ``pyExSi`` package (developed at `pyExSi <https://github.com/ladisk/pyExSi>`_).
