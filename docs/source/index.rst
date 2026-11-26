@@ -1,5 +1,5 @@
 Welcome to ``SDyPy-excitation`` documentation!
-=======================================
+==============================================
 
 This is the documentation for the ``SDyPy-excitation`` package, part of ``SDyPy`` framework_. Check out the project on GitHub_.
 The package contains the code of the former ``pyExSi`` package.
