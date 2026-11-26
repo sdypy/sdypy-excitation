@@ -37,11 +37,19 @@ docs = [
     "pydata-sphinx-theme",
     "sphinx-copybutton>=0.5.2",
 ]
+test = [
+    "pytest",
+    "matplotlib",
+]
+examples = [
+    "matplotlib",
+    "jupyter",
+]
 dev = [
     "sdypy-excitation[docs]",
+    "sdypy-excitation[test,examples]",
     "twine",
     "wheel",
-    "pytest",
     "build",
     "flake8",
 ]
