@@ -46,6 +46,8 @@ extensions = [
     'sphinx_copybutton',
     # Add support for the Google docstring format
     'sphinx.ext.napoleon', 
+    'nbsphinx',
+    'nbsphinx_link',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -178,6 +180,9 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+# Do not run the Showcase notebook during the docs build
+nbsphinx_execute = 'never'
 
 
 # -- Extension configuration -------------------------------------------------

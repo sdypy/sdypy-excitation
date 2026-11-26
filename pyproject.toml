@@ -12,7 +12,10 @@ description = "Excitation signals as used in structural dynamics and vibration f
 readme = "README.rst"
 keywords = ["excitation signals", "vibration fatigue", "structural dynamics"]
 requires-python = ">=3.13"
-dependencies = ["pyExSi"]
+dependencies = [
+    "numpy>=1.18",
+    "scipy",
+]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -25,7 +28,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/sdypy/sdypy-excitation"
-Documentation = "https://pyexsi.readthedocs.io/en/latest/index.html"
+Documentation = "https://sdypy-excitation.readthedocs.io/en/latest/"
 Source = "https://github.com/sdypy/sdypy-excitation"
 
 [project.optional-dependencies]
@@ -33,12 +36,23 @@ docs = [
     "sphinx",
     "pydata-sphinx-theme",
     "sphinx-copybutton>=0.5.2",
+    "nbsphinx",
+    "nbsphinx-link",
+    "ipython",
+]
+test = [
+    "pytest",
+    "matplotlib",
+]
+examples = [
+    "matplotlib",
+    "jupyter",
 ]
 dev = [
     "sdypy-excitation[docs]",
+    "sdypy-excitation[test,examples]",
     "twine",
     "wheel",
-    "pytest",
     "build",
     "flake8",
 ]

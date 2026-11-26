@@ -4,11 +4,11 @@ sdypy-excitation
 Excitation signal generation for structural dynamics and vibration fatigue.
 ---------------------------------------------------------------------------
 
-The ``sdypy-excitation`` is a namespace project of the ``sdypy`` framework and is a direct link
-to the ``pyExSi`` package (developed at `pyExSi <https://github.com/ladisk/pyExSi>`_).
+The ``sdypy-excitation`` is a namespace project of the ``sdypy`` framework and holds the
+excitation signal code that was developed as the
+`pyExSi <https://github.com/ladisk/pyExSi>`_ package.
 
-Use the ``sdypy`` package to conveniently access the functionality of the
-`pyExSi <https://github.com/ladisk/pyExSi>`_ package through its namespace (see example below). 
+Use the ``sdypy`` package to access the functionality through its namespace (see example below).
 
 Other functionalities of the ``sdypy`` framework include:
 
@@ -17,7 +17,7 @@ Other functionalities of the ``sdypy`` framework include:
 - `sdypy-FRF <https://github.com/sdypy/sdypy-FRF>`_: Frequency Response Function estimation
 
 
-For more information check out the showcase examples and see documentation_.
+For more information check out the `showcase notebook <https://github.com/sdypy/sdypy-excitation/blob/master/examples/Showcase.ipynb>`_ and see documentation_.
 
 Basic ``sdypy-excitation`` usage:
 ---------------------------------
