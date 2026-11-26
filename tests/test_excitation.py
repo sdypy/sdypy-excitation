@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Functional tests for sdypy.excitation (wraps pyExSi).
+Functional tests for sdypy.excitation (implemented in sdypy.excitation.signals).
 
 All eleven curated functions are covered:
   burst_random, get_kurtosis, get_psd, impulse, nonstationary_signal,
