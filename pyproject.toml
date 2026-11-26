@@ -28,7 +28,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/sdypy/sdypy-excitation"
-Documentation = "https://pyexsi.readthedocs.io/en/latest/index.html"
+Documentation = "https://sdypy-excitation.readthedocs.io/en/latest/"
 Source = "https://github.com/sdypy/sdypy-excitation"
 
 [project.optional-dependencies]
@@ -36,6 +36,9 @@ docs = [
     "sphinx",
     "pydata-sphinx-theme",
     "sphinx-copybutton>=0.5.2",
+    "nbsphinx",
+    "nbsphinx-link",
+    "ipython",
 ]
 test = [
     "pytest",
